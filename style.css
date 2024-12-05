@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#container {
+   text-align: center;
+   margin-top: 2rem;
+
+}
+#random-btn {
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: hsl(189, 83%, 50%);
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+#random-btn:hover {
+    background-color: hsl(189, 83%, 60%);
+}
+
+#random-btn:active {
+    background-color: hsl(189, 83%, 70%);
+}
+
+
+
+
+#randomNum-container {
+    display: flex;
+    justify-content: center;
+   
+}
+.randomNum {
+    border: 2px solid black;
+    margin: 20px 20px;
+    padding: 2rem;
+    border-radius: 50%;
+    background-color: hsl(189, 83%, 60%);
+
+}
